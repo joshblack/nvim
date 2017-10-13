@@ -7,3 +7,9 @@
 [submodule "pack/bundle/start/pinnacle"]
 	path = pack/bundle/start/pinnacle
 	url = https://github.com/wincent/pinnacle.git
+[submodule "pack/YouCompleteMe/opt/YouCompleteMe"]
+	path = pack/YouCompleteMe/opt/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+[submodule "pack/nerdtree/opt/nerdtree"]
+	path = pack/nerdtree/opt/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
