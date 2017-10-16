@@ -4,6 +4,10 @@ endif
 
 let mapleader=','
 
+" Extension -> filetype mappings.
+let filetype_m='objc'
+let filetype_pl='prolog'
+
 imap jj <Esc>
 
 " Automatic, language-dependent indentation, syntax coloring and other
