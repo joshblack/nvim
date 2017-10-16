@@ -1,3 +1,7 @@
+" Tell vim to display hidden files by default
+let NERDTreeShowHidden=1
+let g:NERDSpaceDelims=1
+
 " The default of 31 is just a little too narrow.
 let g:NERDTreeWinSize=35
 
@@ -10,6 +14,10 @@ let g:NERDTreeCreatePrefix='silent keepalt keepjumps'
 " Single-click to toggle directory nodes, double-click to open non-directory
 " nodes.
 let g:NERDTreeMouseMode=2
+
+" Custom NERDTree bindings
+nnoremap <leader>d :NERDTreeToggle<CR>
+nnoremap <leader>f :NERDTreeFind<CR>
 
 if has('autocmd')
   augroup JBNERDTree

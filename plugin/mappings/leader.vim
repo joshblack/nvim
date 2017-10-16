@@ -19,6 +19,7 @@ nnoremap <Leader>q :quit<CR>
 " numbering (mnemonic: relative).
 nnoremap <silent> <Leader>r :call joshblack#mappings#leader#cycle_numbering()<CR>
 
+nnoremap <Leader>s :write<CR>
 nnoremap <Leader>w :write<CR>
 nnoremap <Leader>x :xit<CR>
 
@@ -37,6 +38,10 @@ nnoremap <silent> <LocalLeader>s :Search<CR>
 
 " <LocalLeader>e -- Edit file, starting in same directory as current file.
 nnoremap <LocalLeader>e :edit <C-R>=expand('%:p:h') . '/'<CR>
+
+" Toggle fold at current position.
+" (Using s-tab to avoid collision between <tab> and <C-i>).
+nnoremap <s-tab> za
 
 " <LocalLeader>x -- Turn references to the word under the cursor to references
 " to the WORD under the cursor:
